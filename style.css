@@ -1,0 +1,102 @@
+body {
+  background-image: url("https://rare-gallery.com/uploads/posts/389405-4k-wallpaper.jpg") ;
+  font-family: arial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 14px;
+  line-height: 10px;
+  text-align: center;
+  opacity: 1;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+  color: black;
+
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 15px;
+  color: black;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 10px;
+  color: #4f7cac;
+}
+
+
+.container {
+  width: 800px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  border-color: black;
+  border-style: solid;
+  border: 2px;
+  padding-top: 50px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  opacity: 1;
+}
+
+.fa-brands {
+  display: inline-block;
+  padding: 0px 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 50px;
+}
+
+.fa-brands.hover {
+    color: goldenrod;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #80B2E7;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.link:hover {
+  color: goldenrod;
+}
+
+.photo-circle {
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
